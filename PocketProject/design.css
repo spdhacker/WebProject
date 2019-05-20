@@ -1,0 +1,90 @@
+body, html{
+	margin: 0px;
+	background-image: url("1200.jpg");
+	height: 100%;
+	width: 100%;
+	background-repeat: repeat-x;
+	background-color: #d1e0e0;
+	font-family: "Footlight MT";
+	font-style: "Condensed";
+}
+
+header{
+	padding: 10px;
+  background: #99ff66;
+  color: white;
+  font-size: 30px;
+  border-bottom:3px solid #99ff66;
+  border-radius: 0px 0px 30px 30px;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+.labelstyle
+{
+	padding: 3px;
+	border-radius: 10px;
+	border: 1px solid #00b300;
+	background-color: #00b300;
+    color: white;
+	font-size: 20px;
+}
+
+.labelstyle:hover{
+box-shadow: 5px 10px 8px black;
+}
+
+
+div.forms{
+	font-size: 20px;
+	background-image: url("form1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px;
+	width: 20%;
+	height: 35%;
+	margin-left: 35%;
+	border: 2px solid #99ff66;
+	border-radius: 10px 10px 100px 100px;
+	box-shadow: 5px 10px 8px grey;
+}
+
+
+.outer
+{
+	  margin-left: 5%;
+	  width: 90%;
+      border: 3px solid #99ff66;
+      border-radius: 10px;
+      box-shadow: 5px 10px 8px grey;
+}
+
+
+table, th, td {
+  border: 1px solid #d1e0e0;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+th, td {
+  padding: 5px;
+}
+td {
+
+  text-align: center;
+}
+th{
+	background-color: #99ff66;
+	color: white;
+}
+tr
+{
+	background-color: transparent;
+}
+tr:hover{
+	background-color: #99ff66;
+
+}
